@@ -1,0 +1,32 @@
+{
+  "assessmentCollection": [
+    {
+      "id": "403d4adb-9767-4621-91e3-9b99e33b9794",
+      "userid": "4b4b9943-b5e2-4856-bd67-ad9c662639d0",
+      "date": "2019-08-29 13:29:51",
+      "weight": "76",
+      "startingweight": "100",
+      "upper_arm": "33",
+      "chest": "33",
+      "waist": "33",
+      "thigh": "33",
+      "hips": "33",
+      "trend": true,
+      "comment": "Well done!"
+    },
+    {
+      "id": "4c6a08e2-d37a-45f8-98b4-9df6cf960bb1",
+      "userid": "4b4b9943-b5e2-4856-bd67-ad9c662639d0",
+      "date": "2019-08-29 13:52:03",
+      "weight": "74",
+      "startingweight": "100",
+      "upper_arm": "44",
+      "chest": "44",
+      "waist": "44",
+      "thigh": "44",
+      "hips": "44",
+      "trend": false,
+      "comment": "Impressive - keep going!"
+    }
+  ]
+}

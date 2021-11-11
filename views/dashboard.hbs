@@ -1,0 +1,20 @@
+{{> menu id="dashboard"}}
+
+{{#if type.member }}
+    <section class="ui segment">
+        {{> dashboardAnalytics}}
+        {{> addAssessment}}
+    {{> listAssessments}}
+
+    <section class="ui segment">
+
+        <a href="/user/{{user.id}}/goals"><button class="ui blue button"> Add Goals </button></a>
+
+    </section>
+    </section>
+{{else}}
+    <section class="ui segment">
+    {{> listMembers}}
+
+    </section>
+{{/if}}

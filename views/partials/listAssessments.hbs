@@ -1,0 +1,46 @@
+
+<table class="ui celled table">
+    <thead>
+    <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Weight</th>
+        <th scope="col">Chest</th>
+        <th scope="col">Thigh</th>
+        <th scope="col">Upper Arm</th>
+        <th scope="col">Waist</th>
+        <th scope="col">Hips</th>
+        <th scope="col">Trend</th>
+        <th scope="col">Comment</th>
+        <th scope="col"></th>
+
+    </tr>
+    </thead>
+    <tbody>
+
+        {{#each assessments}}
+              <tr>
+                  <td>{{date}}</td>
+                  <td>{{weight}}</td>
+                  <td>{{chest}}</td>
+                  <td>{{thigh}}</td>
+                  <td>{{upper_arm}}</td>
+                  <td>{{waist}}</td>
+                  <td>{{hips}}</td>
+                  <td>
+                  {{#if trend}}
+                      <i class="green thumbs up icon"></i>
+                  {{else}}
+                      <i class="red thumbs down icon"></i>
+                  {{/if}}
+                  </td>
+                  <td>{{comment}}</td>
+                  <td>
+                      <a href="/dashboard/deleteAssessment/{{id}}" class="ui icon button">
+                      <i class="icon trash"></i>
+                    </a>
+                  </td>
+              </tr>
+        {{/each}}
+    </tbody>
+  </table>
+

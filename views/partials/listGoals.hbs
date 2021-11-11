@@ -1,0 +1,32 @@
+<section class="ui segment">
+<h3>Goals</h3>
+<hr>
+<table class="ui celled table">
+    <thead>
+    <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Weight</th>
+        <th scope="col">Chest</th>
+        <th scope="col">Thigh</th>
+        <th scope="col">Upper Arm</th>
+        <th scope="col">Waist</th>
+        <th scope="col">Hips</th>
+
+    </tr>
+    </thead>
+    <tbody>
+
+    {{#each user.goals}}
+        <tr>
+            <td>{{date}}</td>
+            <td>{{measurements.weight}}</td>
+            <td>{{measurements.chest}}</td>
+            <td>{{measurements.thigh}}</td>
+            <td>{{measurements.upper_arm}}</td>
+            <td>{{measurements.waist}}</td>
+            <td>{{measurements.hips}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+</section>

@@ -1,0 +1,18 @@
+
+    <h3>Members</h3>
+    {{#each members}}
+        <div class="card bg-light text-dark">
+        <div class="card-body">
+            <b>Name: </b> {{firstName}} {{lastName}} <br> <b>Email:</b> {{email}} <br> <b>Height:</b> {{height}}
+            <br>
+            <hr>
+
+            <a  href="/deleteUser/{{id}}"><button class="ui red button">Delete Member</button></a>
+        </div>
+            <a href="/assessment/{{id}}" class="ui icon button">
+                <i style="color: blue">View Assessments</i>
+            </a>
+        </div>
+        <hr>
+    {{/each}}
+
