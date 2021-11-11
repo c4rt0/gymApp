@@ -25,3 +25,10 @@ node_modules folder is attached just to save you the hassle of installing all of
 <br>To login as trainer use:
 <br>login : <b>marge@simpson.com</b>
 <br>password <b>pass</b>
+
+## Project look:
+
+![alt text](https://github.com/c4rt0/gymApp/blob/main/images/landingPage.PNG)
+![alt text](https://github.com/c4rt0/gymApp/blob/main/images/Dashboard.PNG)
+![alt text](https://github.com/c4rt0/gymApp/blob/main/images/adminView.PNG)
+![alt text](https://github.com/c4rt0/gymApp/blob/main/images/adminView2.PNG)
